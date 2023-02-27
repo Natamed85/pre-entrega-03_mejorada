@@ -1,0 +1,83 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* estilos generales */
+
+body{
+    background-color: #eceef3;
+    font-family: 'Roboto', sans-serif;
+}
+/* estilos del menu*/
+
+.menu{
+    background-color: rgb(93, 198, 224);
+    position: sticky;
+    top: 50px;
+    z-index: 2;
+    
+}
+
+.menu ul li{
+    background-color: rgb(30, 174, 210);
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block ;
+}
+
+.header h1 div{
+    background-color: rgb(30, 174, 210);
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.video_noticia {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/* estilos de main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:  justify;
+    padding: 1.5rem;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 1.5rem;
+}
+
+section div h3{
+    margin: 10px;
+}
+
+main h2 span {    
+    display: block;
+    text-align: left;
+}
+
+main img {
+    margin: 10px;
+}
+/* estilos de main */
+footer h3{
+    display: block;
+    text-align: center;
+
+}
